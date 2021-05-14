@@ -1,0 +1,32 @@
+﻿body {
+}
+.statistic .view .list {
+    /*Box Pattern*/
+    width: 160px;
+    height: 130px;
+    border-style: solid;
+    border-radius: 25px;
+    margin: 20px;
+    /*Box Position*/
+    float: left;
+    position: relative;
+    left: 60px;
+    /*Box Colors*/
+    border-color: #1e1818;
+    background-color:#6bf24b;
+    /*Content-Text Design*/
+    text-align:center;
+    font-size: 50px;
+    padding: 23px;
+}
+    .statistic .view .list a {
+        /*Text Design*/
+        
+        text-align: center;
+        font-family: Arial;
+        color: chocolate;
+    }
+    .statistic .view .list a:hover{
+        color:aliceblue;
+        opacity:0.8;
+    }

@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<link href="~/StyleSheets/Statistic.css" rel="stylesheet" />
+<br />
+<input type="text" readonly class="form-control" value="İstatistikler" style="color:brown" />
+<br />
+<div class="statistic">
+    <div class="view">
+       @foreach (var statistic in ViewBag.Statistic)
+       {
+        <div class="list">
+            <a href="#" >@statistic</a>
+        </div>
+           
+       }
+    </div>
+</div>
+
+@*@ViewBag.statistic1
+<br />
+@ViewBag.statistic2
+<br />
+@ViewBag.statistic3
+<br />
+@ViewBag.statistic4
+<br />
+@ViewBag.statistic5*@
